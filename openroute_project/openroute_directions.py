@@ -3,7 +3,7 @@ import json
 
 directions_api = "https://api.openrouteservice.org/v2/directions/driving-car"
 geocode_api = "https://api.openrouteservice.org/geocode/search?"
-key = "あなたのAPIキーをここに貼る"
+key = "5b3ce3597851110001cf6248e79cd2b81b3f4972a1bdc642619cc50a"
 
 def geocode_address(address):
     url = f"{geocode_api}api_key={key}&text={address}"
